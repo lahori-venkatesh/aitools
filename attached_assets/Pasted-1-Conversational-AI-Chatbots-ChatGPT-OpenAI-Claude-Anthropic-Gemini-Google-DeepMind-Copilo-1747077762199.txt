@@ -1,0 +1,305 @@
+1. Conversational AI/Chatbots
+ChatGPT (OpenAI)
+
+Claude (Anthropic)
+
+Gemini (Google DeepMind)
+
+Copilot (Microsoft)
+
+2. Content Writing
+Jasper
+
+Grammarly
+
+Sudowrite
+
+Writesonic
+
+3. Copywriting
+Copy.ai
+
+Rytr
+
+Adcreative AI
+
+Textblaze
+
+4. Image Generation
+Midjourney
+
+DALL-E 3 (OpenAI)
+
+Stable Diffusion
+
+Canva AI Art Generator
+
+5. Video Generation/Editing
+Runway
+
+Synthesia
+
+Descript
+
+Pictory
+
+6. Audio Processing
+Adobe Podcast Enhance Speech
+
+Lalal.ai
+
+Krisp
+
+AIVA (AI music generation)
+
+7. Coding/Development
+GitHub Copilot
+
+Tabnine
+
+Cursor
+
+aiXcoder
+
+8. Productivity/Workflow Automation
+Notion AI
+
+ClickUp
+
+Tome
+
+Motion
+
+9. Research/Analysis
+Memex
+
+Glean
+
+Abacus AI
+
+Hebbia Matrix
+
+10. Presentation/Design
+Prezi
+
+Slides AI
+
+Gamma
+
+Pitch
+
+11. Website Building
+Dora
+
+WIX AI
+
+10Web
+
+Framer
+
+12. Translation
+DeepL
+
+Google Translate
+
+Unbabel
+
+Smartcat
+
+13. Data Analysis
+JADBio
+
+OpenAI o3-mini
+
+DataRobot
+
+Tableau GPT
+
+14. Customer Support
+ChatSimple
+
+Cresta
+
+Chatfuel
+
+Zendesk Answer Bot
+
+15. Social Media Management
+Canva Magic Studio
+
+HIX AI
+
+Lately
+
+Buffer AI
+
+16. Miscellaneous
+GFP-GAN (photo restoration)
+
+Glambase App (virtual influencers)
+
+RenderNet (3D rendering)
+
+Attract (talent search)
+
+17. Education & E-Learning
+Khanmigo
+
+Duolingo Max
+
+Coursera Course Assistant
+
+Gradescope AI
+
+18. Healthcare & Medicine
+Watson Health (IBM)
+
+PathAI
+
+Tempus
+
+Babylon Health
+
+19. Finance & Trading
+AlphaSense
+
+BloombergGPT
+
+Kensho
+
+Upstart
+
+20. Legal Tech
+CoCounsel (Casetext)
+
+DoNotPay
+
+LawGeex
+
+Lexion
+
+21. Gaming & Simulation
+Inworld AI
+
+AI Dungeon
+
+Promethean AI
+
+Unity ML-Agents
+
+22. Cybersecurity
+Darktrace
+
+CrowdStrike Falcon
+
+SentinelOne
+
+Vectra AI
+
+23. E-Commerce Optimization
+Shopify Magic
+
+Vue.ai
+
+Recombee
+
+Klevu
+
+24. HR & Recruitment
+HireVue
+
+Eightfold AI
+
+Textio
+
+Beamery
+
+25. AR/VR Development
+NVIDIA Omniverse
+
+Meta Spark Studio
+
+Adobe Aero
+
+Unity Muse
+
+26. Robotics & Autonomous Systems
+Atlas (Boston Dynamics)
+
+NVIDIA Isaac
+
+Covariant
+
+OpenAI Robotics
+
+27. AI Ethics & Governance
+AI Fairness 360 (IBM)
+
+OpenAI Moderation
+
+Hugging Face Ethical AI
+
+Fiddler AI
+
+28. Personal Productivity Assistants
+Reclaim.ai
+
+Otter.ai
+
+Motion
+
+Trevor AI
+
+29. 3D Modeling & Design
+GET3D (NVIDIA)
+
+Kaedim
+
+Autodesk AI
+
+Spline AI
+
+30. Email Marketing
+Phrasee
+
+Persado
+
+Seventh Sense
+
+Mailchimp’s Creative Assistant
+
+31. SEO & SEM Tools
+Surfer SEO
+
+SEMrush AI
+
+MarketMuse
+
+Frase
+
+32. IoT & Smart Devices
+Nest AI (Google)
+
+Josh.ai
+
+AWS IoT Analytics
+
+Siemens MindSphere
+
+33. UI/UX Design
+Figma AI
+
+Uizard
+
+Galileo AI
+
+VisualEyes
+
+34. Fullstack/App Builders
+Replit (Ghostwriter)
+
+Bolt.ai
+
+Bubble AI
+
+Dora

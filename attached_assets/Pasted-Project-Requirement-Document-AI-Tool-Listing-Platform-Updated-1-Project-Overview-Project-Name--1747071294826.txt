@@ -1,0 +1,310 @@
+Project Requirement Document: AI Tool Listing Platform (Updated)
+
+1. Project Overview
+
+Project Name: AI Tool Hub
+Objective: Create a single-page website listing AI tools by category, each with a dedicated blog post, 3-5 AI prompts, and a "How to Use Effectively" guide. An AI-based search bar will enable intuitive tool discovery. The platform will be SEO-optimized, monetized through ads, sponsored listings, and affiliate links, and built using Bolt.new for rapid development by a solo entrepreneur.
+Target Audience: AI enthusiasts, non-technical users, and businesses seeking AI solutions.
+Development Platform: Bolt.new (AI-powered web app builder).
+
+2. Functional Requirements
+
+2.1 User Authentication
+
+
+
+
+
+Single Sign-On (SSO): One email/password for access to all features.
+
+
+
+Implementation: Supabase Auth.
+
+
+
+Features:
+
+
+
+
+
+Email/password login.
+
+
+
+Optional Google/GitHub login.
+
+
+
+Password recovery.
+
+
+
+User Roles:
+
+
+
+
+
+Regular users: Browse, search, submit tools.
+
+
+
+Admins: Approve/edit tool submissions, manage content.
+
+2.2 Categorized AI Tool Listings
+
+
+
+
+
+Structure: Single-page layout with tools grouped by category (e.g., Text Generation, Image Creation, Data Analysis).
+
+
+
+Display:
+
+
+
+
+
+Filterable categories via dropdown or sidebar.
+
+
+
+Tool cards with name, description, category, and affiliate link.
+
+
+
+Tool Details (per tool):
+
+
+
+
+
+Blog Post: 300-500 words on use cases, tips, or case studies.
+
+
+
+AI Prompts: 3-5 pre-built prompts (e.g., "Write a cover letter for a software engineer role").
+
+
+
+How to Use Effectively Guide: Step-by-step instructions (e.g., "Step 1: Sign up, Step 2: Input data").
+
+
+
+Affiliate link to tool’s official site.
+
+
+
+Implementation: Store tools, blogs, and prompts in Supabase; render dynamically with React.
+
+2.3 AI-Based Search Bar
+
+
+
+
+
+Functionality: Users enter natural language prompts (e.g., “AI for creating images”) to find tools.
+
+
+
+Features:
+
+
+
+
+
+NLP-powered suggestions using Algolia or Hugging Face’s MiniLM.
+
+
+
+Auto-complete and category filters.
+
+
+
+Results ranked by relevance and popularity.
+
+
+
+Implementation: Integrate Algolia via Bolt.new; fallback to Supabase full-text search if budget-limited.
+
+2.4 Tool Submission
+
+
+
+
+
+User Submission:
+
+
+
+
+
+Web form: Tool name, category, description, URL, sample prompts, and optional blog draft.
+
+
+
+Moderation queue for admin approval.
+
+
+
+Admin Panel:
+
+
+
+
+
+Approve, edit, or reject submissions.
+
+
+
+Add tools directly with blog posts and prompts.
+
+
+
+Implementation: Supabase for submission data; React forms for UI.
+
+2.5 SEO Optimization
+
+
+
+
+
+Features:
+
+
+
+
+
+Server-side rendering with Next.js.
+
+
+
+Meta tags, alt texts, and schema.org structured data for tools.
+
+
+
+Keyword-optimized tool descriptions, blogs, and prompts.
+
+
+
+Sitemap and robots.txt.
+
+
+
+Tools: Google Analytics for tracking; Ahrefs for keyword research.
+
+2.6 Revenue Generation
+
+
+
+
+
+Ads:
+
+
+
+
+
+Google AdSense for banners, sidebar, and in-content ads.
+
+
+
+Placed on tool listings, blogs, and search results.
+
+
+
+Sponsored Listings: Paid tools appear at top of categories.
+
+
+
+Affiliate Links: Embedded in tool links (e.g., Impact, Amazon).
+
+
+
+Implementation: AdSense API; custom affiliate tracking.
+
+3. Non-Functional Requirements
+
+
+
+
+
+Performance: Page load time < 2 seconds (Next.js and Netlify).
+
+
+
+Scalability: Supabase for database; Algolia for search.
+
+
+
+Mobile Responsiveness: Fully responsive UI.
+
+
+
+Security:
+
+
+
+
+
+HTTPS for data transfer.
+
+
+
+Input validation to prevent XSS/SQL injection.
+
+
+
+Supabase Auth for user data protection.
+
+
+
+Usability: Simple navigation and guided prompts for non-technical users.
+
+4. Technical Stack
+
+
+
+
+
+Frontend: React with Next.js (via Bolt.new).
+
+
+
+Backend: Node.js/Express.
+
+
+
+Database: Supabase (PostgreSQL).
+
+
+
+Authentication: Supabase Auth.
+
+
+
+AI Search: Algolia or Hugging Face MiniLM.
+
+
+
+SEO: Next.js for server-side rendering.
+
+
+
+Ads: Google AdSense API.
+
+
+
+Affiliate Links: Custom API.
+
+
+
+Hosting: Netlify.
+
+
+
+Analytics: Google Analytics.
